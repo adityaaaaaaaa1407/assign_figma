@@ -61,9 +61,9 @@ const data = [
 ];
 const AttendanceLog = () => {
   return (
-    <div className="flex-grow bg-gray-100 p-6 rounded-md shadow">
-      <Tabs defaultValue="attendance" className="">
-        <TabsList className="flex flex-row justify-evenly w-full border-b">
+    <div className="flex-grow bg-gray-100 p-6 rounded-md shadow ">
+      <Tabs defaultValue="attendance" className="overflow-hidden">
+        <TabsList className="flex flex-row justify-evenly w-full border-b ">
           <TabsTrigger
             value="attendance"
             className="flex-1 text-[16px] font-medium pb-2 text-center 
@@ -81,18 +81,20 @@ const AttendanceLog = () => {
             Leave Log
           </TabsTrigger>
         </TabsList>
-        <TabsContent value="attendance">
+        <TabsContent value="attendance" className="w-full ">
           <h2 className="text-[#0F172A] font-medium text-lg mt-10  ml-4">
             Attendance Log
           </h2>
-          <ShadcnTable data={data} />
+          <div className="lg:w-full sm:w-[700px] w-[400px] ">
+            <ShadcnTable data={data} />
+          </div>
           <div className="flex justify-end">
             <button className="underline text-black mt-4 px-8  underline-offset-4">
               View More
             </button>
           </div>
         </TabsContent>
-        <TabsContent value="leave">
+        <TabsContent value="leave" className="w-full ">
           <h2 className="text-[#0F172A] font-medium text-lg mt-10 mb-4 ml-4">
             Leave Log content
           </h2>

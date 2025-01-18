@@ -21,7 +21,7 @@ const data = [
 
 const CalendarSidebar = () => {
   return (
-    <div className="w-1/3 bg-white p-4 rounded-md shadow ">
+    <div className="lg:w-1/3  bg-white p-4 rounded-md shadow ">
       <div className="text-center px-4">
         <CustomCalndar />
       </div>

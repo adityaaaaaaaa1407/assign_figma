@@ -44,7 +44,7 @@ const Header = () => {
           </Button>
         </div>
       </section>
-      <section className="flex flex-row gap-4 items-center justify-between  px-[76px] ">
+      <section className="flex flex-row gap-4 items-center justify-between  sm:px-[76px] px-2">
         <div className="flex flex-row items-center gap-2 ">
           <h2 className="text-[16px]">October</h2>
           <div className="text-xl text-black font-semibold">

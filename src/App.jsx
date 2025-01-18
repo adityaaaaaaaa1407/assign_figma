@@ -12,7 +12,7 @@ const App = () => {
   return (
     <Router>
       <div className="flex w-full">
-        <div className="hidden md:block">
+        <div className="hidden lg:block">
           <Sidebar />
         </div>
 
