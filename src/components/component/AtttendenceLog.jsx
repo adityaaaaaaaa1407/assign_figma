@@ -81,11 +81,14 @@ const AttendanceLog = () => {
             Leave Log
           </TabsTrigger>
         </TabsList>
-        <TabsContent value="attendance" className="w-full ">
+        <TabsContent
+          value="attendance"
+          className="lg:w-full sm:w-[700px] w-[400px]"
+        >
           <h2 className="text-[#0F172A] font-medium text-lg mt-10  ml-4">
             Attendance Log
           </h2>
-          <div className="lg:w-full sm:w-[700px] w-[400px] ">
+          <div className=" ">
             <ShadcnTable data={data} />
           </div>
           <div className="flex justify-end">
@@ -94,7 +97,7 @@ const AttendanceLog = () => {
             </button>
           </div>
         </TabsContent>
-        <TabsContent value="leave" className="w-full ">
+        <TabsContent value="leave" className="lg:w-full sm:w-[700px] w-[400px]">
           <h2 className="text-[#0F172A] font-medium text-lg mt-10 mb-4 ml-4">
             Leave Log content
           </h2>
