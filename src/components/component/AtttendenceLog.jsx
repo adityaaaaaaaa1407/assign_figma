@@ -61,9 +61,9 @@ const data = [
 ];
 const AttendanceLog = () => {
   return (
-    <div className="flex-grow bg-gray-100 p-6 rounded-md shadow ">
+    <div className="flex-grow bg-gray-100 sm:p-6 rounded-md shadow ">
       <Tabs defaultValue="attendance" className="overflow-hidden">
-        <TabsList className="flex flex-row justify-evenly w-full border-b ">
+        <TabsList className="flex flex-row justify-evenly sm:w-full border-b ">
           <TabsTrigger
             value="attendance"
             className="flex-1 text-[16px] font-medium pb-2 text-center 

@@ -21,8 +21,8 @@ const statsData = [
 ];
 const Header = () => {
   return (
-    <div className="flex flex-col gap-4 py-8 sm:px-1 px-2 mb-4 sm:w-full w-[350px]">
-      <section className="flex items-center space-x-4 justify-between  mb-[58px] sm:px-8 px-2 sm:w-full w-[350px]">
+    <div className="flex flex-col gap-4 py-8 sm:px-1 px-0 mb-4 sm:w-full w-[350px] sm:mx-0 mx-auto">
+      <section className="flex items-center space-x-4 justify-between  mb-[58px] lg:px-8 sm:px-8 px-2 sm:w-full w-[350px]">
         <div className="flex  gap-4 items-center">
           <div className="relative ">
             <img
@@ -44,7 +44,7 @@ const Header = () => {
           </Button>
         </div>
       </section>
-      <section className="sm:w-full w-[350px] flex sm:flex-row flex-col gap-4 items-center justify-between  sm:px-[76px] px-2">
+      <section className="sm:w-full w-[350px] flex sm:flex-row flex-col gap-4 items-center justify-between  lg:px-[76px] sm:px-8 px-2">
         <div className="flex flex-row items-center gap-2 ">
           <h2 className="text-[16px] text-black">October</h2>
           <div className=" ">

@@ -12,7 +12,7 @@ import {
 const ShadcnTable = ({ data }) => {
   const headerClass = "text-[#0F172A] text-sm font-medium";
   return (
-    <Table className="w-full mt-4 table-auto whitespace-nowrap">
+    <Table className="sm:w-full w-[350px] mt-4 table-auto whitespace-nowrap">
       <TableHeader>
         <TableRow>
           {[
