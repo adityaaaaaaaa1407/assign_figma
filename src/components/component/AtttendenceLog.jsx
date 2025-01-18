@@ -83,7 +83,7 @@ const AttendanceLog = () => {
         </TabsList>
         <TabsContent
           value="attendance"
-          className="xl:w-full lg:w-[400px] sm:w-[700px] w-[400px]"
+          className="xl:w-full lg:w-[400px] sm:w-[700px] w-[350px] sm:px-0 px-2"
         >
           <h2 className="text-[#0F172A] font-medium text-lg mt-10  ml-4">
             Attendance Log
@@ -97,7 +97,7 @@ const AttendanceLog = () => {
             </button>
           </div>
         </TabsContent>
-        <TabsContent value="leave" className="lg:w-full sm:w-[700px] w-[400px]">
+        <TabsContent value="leave" className="lg:w-full sm:w-[700px] w-[350px]">
           <h2 className="text-[#0F172A] font-medium text-lg mt-10 mb-4 ml-4">
             Leave Log content
           </h2>

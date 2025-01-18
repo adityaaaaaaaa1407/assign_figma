@@ -22,12 +22,12 @@ const data = [
 const CalendarSidebar = () => {
   return (
     <div>
-      <div className=" sm:w-full w-[400px] bg-white px-4 py-3 rounded-md  overflow-hidden">
+      <div className=" sm:w-full w-[350px] bg-white px-4 py-3 rounded-md  overflow-hidden">
         <CustomCalndar className="text-center px-4" />
       </div>
 
       {/* Upcoming Holidays */}
-      <div className="mt-8 px-4 sm:w-full w-[400px] bg-white p-4 rounded-md  overflow-hidden">
+      <div className="mt-8 px-4 sm:w-full w-[350px] bg-white p-4 rounded-md  overflow-hidden">
         <div className="flex justify-between items-center mb-12">
           <h3 className="text-sm font-medium text-[#0F172A]">
             Upcoming Holidays
