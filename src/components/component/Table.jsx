@@ -12,7 +12,7 @@ import {
 const ShadcnTable = ({ data }) => {
   const headerClass = "text-[#0F172A] text-sm font-medium";
   return (
-    <Table className="w-full mt-4">
+    <Table className="w-full mt-4 table-auto whitespace-nowrap">
       <TableHeader>
         <TableRow>
           {[
@@ -31,7 +31,7 @@ const ShadcnTable = ({ data }) => {
       </TableHeader>
       <TableBody>
         {data.map((row, index) => (
-          <TableRow key={index} className=" h-[72px]">
+          <TableRow key={index} className="h-[72px]">
             <TableCell className="text-[#0F172A] text-sm font-medium">
               {row.date}
             </TableCell>

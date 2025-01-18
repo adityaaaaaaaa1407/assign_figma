@@ -83,7 +83,7 @@ const AttendanceLog = () => {
         </TabsList>
         <TabsContent
           value="attendance"
-          className="lg:w-full sm:w-[700px] w-[400px]"
+          className="xl:w-full lg:w-[400px] sm:w-[700px] w-[400px]"
         >
           <h2 className="text-[#0F172A] font-medium text-lg mt-10  ml-4">
             Attendance Log

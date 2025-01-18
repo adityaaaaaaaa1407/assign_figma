@@ -11,20 +11,21 @@ import HelpPage from "./pages/HelpPage";
 const App = () => {
   return (
     <Router>
-      <div className="flex w-full">
-        <div className="hidden lg:block">
+      <div className="flex w-full overflow-hidden">
+        <div className="hidden lg:block w-[240px]">
           <Sidebar />
         </div>
-
-        <Routes>
-          <Route path="/" element={<HomePage />}></Route>
-          <Route path="/attendence" element={<AttendencePage />}></Route>
-          <Route path="/leave" element={<LeavePage />}></Route>
-          <Route path="/compDetail" element={<CompDetailsPage />}></Route>
-          <Route path="/profile" element={<ProfSettingPage />}></Route>
-          <Route path="/help" element={<HelpPage />}></Route>
-          <Route path="/logout" element={<HomePage />}></Route>
-        </Routes>
+        <div className="flex-1 ">
+          <Routes>
+            <Route path="/" element={<HomePage />}></Route>
+            <Route path="/attendence" element={<AttendencePage />}></Route>
+            <Route path="/leave" element={<LeavePage />}></Route>
+            <Route path="/compDetail" element={<CompDetailsPage />}></Route>
+            <Route path="/profile" element={<ProfSettingPage />}></Route>
+            <Route path="/help" element={<HelpPage />}></Route>
+            <Route path="/logout" element={<HomePage />}></Route>
+          </Routes>
+        </div>
       </div>
     </Router>
   );
