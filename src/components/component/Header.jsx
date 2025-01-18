@@ -15,7 +15,7 @@ const statsData = [
     value: "03",
   },
   {
-    title: "Avg Working Hours",
+    title: "Avg. Working Hours",
     value: "9hrs 30min",
   },
 ];
@@ -40,15 +40,15 @@ const Header = () => {
         </div>
         <div className="flex justify-end ">
           <Button className="bg-[#0F172A] font-semibold ">
-            Selfie Clocks In{" "}
+            Selfie Clock In{" "}
           </Button>
         </div>
       </section>
       <section className="flex flex-row gap-4 items-center justify-between  sm:px-[76px] px-2">
         <div className="flex flex-row items-center gap-2 ">
-          <h2 className="text-[16px]">October</h2>
-          <div className="text-xl text-black font-semibold">
-            <CiCalendar />
+          <h2 className="text-[16px] text-black">October</h2>
+          <div className=" ">
+            <CiCalendar className="text-2xl text-black font-semibold" />
           </div>
         </div>
         {statsData.map((stat, index) => (

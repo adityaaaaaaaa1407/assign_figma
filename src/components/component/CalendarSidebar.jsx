@@ -3,19 +3,19 @@ import CustomCalndar from "./CustomCalendar";
 const data = [
   {
     title: "1 Jan, Mon 2025",
-    day: "New Year's Day",
+    day: "New year's Day",
   },
   {
     title: "1 Jan, Mon 2025",
-    day: "New Year's Day",
+    day: "New year's Day",
   },
   {
     title: "1 Jan, Mon 2025",
-    day: "New Year's Day",
+    day: "New year's Day",
   },
   {
     title: "1 Jan, Mon 2025",
-    day: "New Year's Day",
+    day: "New year's Day",
   },
 ];
 
